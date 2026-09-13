@@ -1,0 +1,49 @@
+/* Стилі для всієї сторінки */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0f7e9; /* ніжно-зелений фон, як джунглі */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Стилі для картки */
+.card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 30px;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* легка тінь */
+}
+
+/* Заголовок */
+.card h1 {
+  color: #ff6f00; /* яскраво-оранжевий, як пір'я папуги */
+  font-size: 28px;
+}
+
+/* Підзаголовок */
+.subtitle {
+  color: #4caf50; /* зелений */
+  font-style: italic;
+  margin-top: -10px;
+}
+
+/* Кнопка */
+.btn {
+  background-color: #ff6f00;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* плавна зміна кольору при наведенні */
+}
+
+.btn:hover {
+  background-color: #e65100; /* темніший оранжевий при наведенні */
+}
